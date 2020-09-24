@@ -1,0 +1,16 @@
+execute if score Global PC_nibble_2 matches 0 run scoreboard players operation Global ST = Global V0
+execute if score Global PC_nibble_2 matches 1 run scoreboard players operation Global ST = Global V1
+execute if score Global PC_nibble_2 matches 2 run scoreboard players operation Global ST = Global V2
+execute if score Global PC_nibble_2 matches 3 run scoreboard players operation Global ST = Global V3
+execute if score Global PC_nibble_2 matches 4 run scoreboard players operation Global ST = Global V4
+execute if score Global PC_nibble_2 matches 5 run scoreboard players operation Global ST = Global V5
+execute if score Global PC_nibble_2 matches 6 run scoreboard players operation Global ST = Global V6
+execute if score Global PC_nibble_2 matches 7 run scoreboard players operation Global ST = Global V7
+execute if score Global PC_nibble_2 matches 8 run scoreboard players operation Global ST = Global V8
+execute if score Global PC_nibble_2 matches 9 run scoreboard players operation Global ST = Global V9
+execute if score Global PC_nibble_2 matches 10 run scoreboard players operation Global ST = Global VA
+execute if score Global PC_nibble_2 matches 11 run scoreboard players operation Global ST = Global VB
+execute if score Global PC_nibble_2 matches 12 run scoreboard players operation Global ST = Global VC
+execute if score Global PC_nibble_2 matches 13 run scoreboard players operation Global ST = Global VD
+execute if score Global PC_nibble_2 matches 14 run scoreboard players operation Global ST = Global VE
+execute if score Global PC_nibble_2 matches 15 run scoreboard players operation Global ST = Global VF
