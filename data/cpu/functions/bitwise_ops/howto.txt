@@ -1,0 +1,6 @@
+Global bitwise_1 is 8-bit arg 1
+Global bitwise_2 is 8-bit arg 2
+function and/or/xor
+8-bit result is put into result
+
+Uses lookup table because there aren't any bitwise functions in Minecraft

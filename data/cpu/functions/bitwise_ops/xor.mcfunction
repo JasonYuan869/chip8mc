@@ -1,0 +1,16 @@
+execute if score Global bitwise_1 matches 0 run function cpu:bitwise_ops/xor_0
+execute if score Global bitwise_1 matches 1 run function cpu:bitwise_ops/xor_1
+execute if score Global bitwise_1 matches 2 run function cpu:bitwise_ops/xor_2
+execute if score Global bitwise_1 matches 3 run function cpu:bitwise_ops/xor_3
+execute if score Global bitwise_1 matches 4 run function cpu:bitwise_ops/xor_4
+execute if score Global bitwise_1 matches 5 run function cpu:bitwise_ops/xor_5
+execute if score Global bitwise_1 matches 6 run function cpu:bitwise_ops/xor_6
+execute if score Global bitwise_1 matches 7 run function cpu:bitwise_ops/xor_7
+execute if score Global bitwise_1 matches 8 run function cpu:bitwise_ops/xor_8
+execute if score Global bitwise_1 matches 9 run function cpu:bitwise_ops/xor_9
+execute if score Global bitwise_1 matches 10 run function cpu:bitwise_ops/xor_10
+execute if score Global bitwise_1 matches 11 run function cpu:bitwise_ops/xor_11
+execute if score Global bitwise_1 matches 12 run function cpu:bitwise_ops/xor_12
+execute if score Global bitwise_1 matches 13 run function cpu:bitwise_ops/xor_13
+execute if score Global bitwise_1 matches 14 run function cpu:bitwise_ops/xor_14
+execute if score Global bitwise_1 matches 15 run function cpu:bitwise_ops/xor_15

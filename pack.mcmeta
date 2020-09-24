@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format": 6,
+        "description": "An experimental CHIP-8 emulator in Minecraft."
+    }
+}

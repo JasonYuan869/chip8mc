@@ -1,0 +1,43 @@
+[
+  {
+    "text": "[4]",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/function keyboard:buttons/button_4"
+    },
+    "color": "gray"
+  },
+  {
+    "text": " "
+  },
+  {
+    "text": "[5]",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/function keyboard:buttons/button_5"
+    },
+    "color": "gray"
+  },
+  {
+    "text": " "
+  },
+  {
+    "text": "[6]",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/function keyboard:buttons/button_6"
+    },
+    "color": "gray"
+  },
+  {
+    "text": " "
+  },
+  {
+    "text": "[D]",
+    "clickEvent": {
+      "action": "run_command",
+      "value": "/function keyboard:buttons/button_d"
+    },
+    "color": "gray"
+  }
+]
