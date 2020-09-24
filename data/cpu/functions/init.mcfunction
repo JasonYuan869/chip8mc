@@ -77,6 +77,8 @@ scoreboard players set Global PC_nibble_1 0
 scoreboard players set Global PC_nibble_2 0
 scoreboard players set Global PC_nibble_3 0
 scoreboard players set Global PC_nibble_4 0
+scoreboard objectives add memory_value dummy
+scoreboard players set Global memory_value 0
 
 # After reading stack
 scoreboard objectives stack_value dummy
