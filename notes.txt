@@ -63,6 +63,7 @@ Fully Implemented Opcodes:
   - 9xy0
   - Annn
   - Bnnn
+  - Cxnn
   - Fx07
   - Fx15
   - Fx18
@@ -71,7 +72,6 @@ Fully Implemented Opcodes:
   - Fx65
 
 Opcodes to add:
-  - Cxnn
   - Dxyn (this will be hard)
   - Ex9E
   - ExA1
