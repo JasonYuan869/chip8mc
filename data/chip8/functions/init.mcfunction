@@ -29,7 +29,7 @@ scoreboard players set Global enable_debug 1
 scoreboard players set Global halt 0
 
 # Initialize sub-modules
+function cpu:init
 function keyboard:init
 function renderer:init
-function cpu:init
 function rng:initiate
