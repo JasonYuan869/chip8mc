@@ -8,6 +8,7 @@ scoreboard players set c1 Constant 1
 scoreboard players set c2 Constant 2
 scoreboard players set c3 Constant 3
 scoreboard players set c4 Constant 4
+scoreboard players set c5 Constant 5
 scoreboard players set c8 Constant 8
 scoreboard players set c10 Constant 10
 scoreboard players set c15 Constant 15
