@@ -42,4 +42,39 @@ Delay and sound timers tick at 60 Hz (but Minecraft can only do 20 Hz)
 Clock speed is around 500 Hz (again, MC can only do 20)
 
 TODO:
-- 8xy6
+Fully Implemented Opcodes:
+  - 00E0
+  - 00EE
+  - 1nnn
+  - 2nnn
+  - 3xnn
+  - 4xnn
+  - 5xyn
+  - 6xnn
+  - 7xnn
+  - 8xy0
+  - 8xy1
+  - 8xy2
+  - 8xy3
+  - 8xy4
+  - 8xy6
+  - 8xy7
+  - 8xyE
+  - 9xy0
+  - Annn
+  - Bnnn
+  - Fx07
+  - Fx15
+  - Fx18
+  - Fx1E
+  - Fx55
+  - Fx65
+
+Opcodes to add:
+  - Cxnn
+  - Dxyn (this will be hard)
+  - Ex9E
+  - ExA1
+  - Fx0A (think about this)
+  - Fx29 (hardcode sprite addresses)
+  - Fx33 (thik about this)
