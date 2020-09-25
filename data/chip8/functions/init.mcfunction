@@ -22,8 +22,10 @@ scoreboard players set c8192 Constant 8192
 # Initialize important global variables
 scoreboard objectives add started dummy
 scoreboard objectives add enable_debug dummy
+scoreboard objectives add halt dummy
 scoreboard players set Global started 0
 scoreboard players set Global enable_debug 1
+scoreboard players set Global halt 0
 
 # Initialize sub-modules
 function keyboard:init
