@@ -52,6 +52,18 @@ scoreboard players set Global result 0
 scoreboard players set Global bitwise_1 0
 scoreboard players set Global bitwise_2 0
 
+# Sprite
+scoreboard objectives add sprite dummy
+scoreboard objectives add row dummy
+scoreboard objectives add col dummy
+scoreboard objectives add looper_1 dummy
+scoreboard objectives add looper_2 dummy
+scoreboard players set Global sprite 0
+scoreboard players set Global row 0
+scoreboard players set Global col 0
+scoreboard players set Global looper_1 0
+scoreboard players set Global looper_2 0
+
 # Pseudo registers (PC, SP)
 scoreboard objectives add PC dummy
 scoreboard objectives add SP dummy

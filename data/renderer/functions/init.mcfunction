@@ -1,3 +1,5 @@
+scoreboard objectives add pixel dummy
+
 # Pixel array of 2048 pixels
 scoreboard objectives add pixel_0 dummy
 scoreboard objectives add pixel_1 dummy

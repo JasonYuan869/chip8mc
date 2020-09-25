@@ -1,6 +1,6 @@
 # Wrap pixels over the edge
-execute if score display pixel_x matches 64.. run scoreboard players remove display pixel_x 64
-execute if score display pixel_x matches ..-1 run scoreboard players add display pixel_x 64
+execute if score Global col matches 64.. run scoreboard players remove Global col 64
+execute if score Global col matches ..-1 run scoreboard players add Global col 64
 
-execute if score display pixel_y matches 32.. run scoreboard players remove display pixel_y 32
-execute if score display pixel_y matches ..-1 run scoreboard players add display pixel_y 32
+execute if score Global row matches 32.. run scoreboard players remove Global row 32
+execute if score Global row matches ..-1 run scoreboard players add Global row 32
