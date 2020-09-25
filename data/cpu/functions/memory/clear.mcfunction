@@ -1,84 +1,103 @@
 # 0x000 - 0x1FF Reserved Memory
-scoreboard players set Global mem_0 0
-scoreboard players set Global mem_1 0
-scoreboard players set Global mem_2 0
-scoreboard players set Global mem_3 0
-scoreboard players set Global mem_4 0
-scoreboard players set Global mem_5 0
-scoreboard players set Global mem_6 0
-scoreboard players set Global mem_7 0
-scoreboard players set Global mem_8 0
-scoreboard players set Global mem_9 0
-scoreboard players set Global mem_10 0
-scoreboard players set Global mem_11 0
-scoreboard players set Global mem_12 0
-scoreboard players set Global mem_13 0
-scoreboard players set Global mem_14 0
-scoreboard players set Global mem_15 0
-scoreboard players set Global mem_16 0
-scoreboard players set Global mem_17 0
-scoreboard players set Global mem_18 0
-scoreboard players set Global mem_19 0
-scoreboard players set Global mem_20 0
-scoreboard players set Global mem_21 0
-scoreboard players set Global mem_22 0
-scoreboard players set Global mem_23 0
-scoreboard players set Global mem_24 0
-scoreboard players set Global mem_25 0
-scoreboard players set Global mem_26 0
-scoreboard players set Global mem_27 0
-scoreboard players set Global mem_28 0
-scoreboard players set Global mem_29 0
-scoreboard players set Global mem_30 0
-scoreboard players set Global mem_31 0
-scoreboard players set Global mem_32 0
-scoreboard players set Global mem_33 0
-scoreboard players set Global mem_34 0
-scoreboard players set Global mem_35 0
-scoreboard players set Global mem_36 0
-scoreboard players set Global mem_37 0
-scoreboard players set Global mem_38 0
-scoreboard players set Global mem_39 0
-scoreboard players set Global mem_40 0
-scoreboard players set Global mem_41 0
-scoreboard players set Global mem_42 0
-scoreboard players set Global mem_43 0
-scoreboard players set Global mem_44 0
-scoreboard players set Global mem_45 0
-scoreboard players set Global mem_46 0
-scoreboard players set Global mem_47 0
-scoreboard players set Global mem_48 0
-scoreboard players set Global mem_49 0
-scoreboard players set Global mem_50 0
-scoreboard players set Global mem_51 0
-scoreboard players set Global mem_52 0
-scoreboard players set Global mem_53 0
-scoreboard players set Global mem_54 0
-scoreboard players set Global mem_55 0
-scoreboard players set Global mem_56 0
-scoreboard players set Global mem_57 0
-scoreboard players set Global mem_58 0
-scoreboard players set Global mem_59 0
-scoreboard players set Global mem_60 0
-scoreboard players set Global mem_61 0
-scoreboard players set Global mem_62 0
-scoreboard players set Global mem_63 0
-scoreboard players set Global mem_64 0
-scoreboard players set Global mem_65 0
-scoreboard players set Global mem_66 0
-scoreboard players set Global mem_67 0
-scoreboard players set Global mem_68 0
-scoreboard players set Global mem_69 0
-scoreboard players set Global mem_70 0
-scoreboard players set Global mem_71 0
-scoreboard players set Global mem_72 0
-scoreboard players set Global mem_73 0
-scoreboard players set Global mem_74 0
-scoreboard players set Global mem_75 0
-scoreboard players set Global mem_76 0
-scoreboard players set Global mem_77 0
-scoreboard players set Global mem_78 0
-scoreboard players set Global mem_79 0
+# 0 character sprite
+scoreboard players set Global mem_0 240
+scoreboard players set Global mem_1 144
+scoreboard players set Global mem_2 144
+scoreboard players set Global mem_3 144
+scoreboard players set Global mem_4 240
+
+# 1 character sprite
+scoreboard players set Global mem_5 32
+scoreboard players set Global mem_6 96
+scoreboard players set Global mem_7 32
+scoreboard players set Global mem_8 32
+scoreboard players set Global mem_9 112
+
+# new char every 5 bytes
+scoreboard players set Global mem_10 240
+scoreboard players set Global mem_11 16
+scoreboard players set Global mem_12 240
+scoreboard players set Global mem_13 128
+scoreboard players set Global mem_14 240
+
+scoreboard players set Global mem_15 240
+scoreboard players set Global mem_16 16
+scoreboard players set Global mem_17 240
+scoreboard players set Global mem_18 16
+scoreboard players set Global mem_19 240
+
+scoreboard players set Global mem_20 144
+scoreboard players set Global mem_21 144
+scoreboard players set Global mem_22 240
+scoreboard players set Global mem_23 16
+scoreboard players set Global mem_24 16
+
+scoreboard players set Global mem_25 240
+scoreboard players set Global mem_26 128
+scoreboard players set Global mem_27 240
+scoreboard players set Global mem_28 16
+scoreboard players set Global mem_29 240
+
+scoreboard players set Global mem_30 240
+scoreboard players set Global mem_31 128
+scoreboard players set Global mem_32 240
+scoreboard players set Global mem_33 144
+scoreboard players set Global mem_34 240
+
+scoreboard players set Global mem_35 240
+scoreboard players set Global mem_36 16
+scoreboard players set Global mem_37 32
+scoreboard players set Global mem_38 64
+scoreboard players set Global mem_39 64
+
+scoreboard players set Global mem_40 240
+scoreboard players set Global mem_41 144
+scoreboard players set Global mem_42 240
+scoreboard players set Global mem_43 144
+scoreboard players set Global mem_44 240
+
+scoreboard players set Global mem_45 240
+scoreboard players set Global mem_46 144
+scoreboard players set Global mem_47 240
+scoreboard players set Global mem_48 16
+scoreboard players set Global mem_49 240
+
+scoreboard players set Global mem_50 240
+scoreboard players set Global mem_51 144
+scoreboard players set Global mem_52 240
+scoreboard players set Global mem_53 144
+scoreboard players set Global mem_54 144
+
+scoreboard players set Global mem_55 224
+scoreboard players set Global mem_56 144
+scoreboard players set Global mem_57 224
+scoreboard players set Global mem_58 144
+scoreboard players set Global mem_59 224
+
+scoreboard players set Global mem_60 240
+scoreboard players set Global mem_61 128
+scoreboard players set Global mem_62 128
+scoreboard players set Global mem_63 128
+scoreboard players set Global mem_64 240
+
+scoreboard players set Global mem_65 224
+scoreboard players set Global mem_66 144
+scoreboard players set Global mem_67 144
+scoreboard players set Global mem_68 144
+scoreboard players set Global mem_69 224
+
+scoreboard players set Global mem_70 240
+scoreboard players set Global mem_71 128
+scoreboard players set Global mem_72 240
+scoreboard players set Global mem_73 128
+scoreboard players set Global mem_74 240
+
+scoreboard players set Global mem_75 240
+scoreboard players set Global mem_76 128
+scoreboard players set Global mem_77 240
+scoreboard players set Global mem_78 128
+scoreboard players set Global mem_79 128
+
 scoreboard players set Global mem_80 0
 scoreboard players set Global mem_81 0
 scoreboard players set Global mem_82 0
