@@ -67,6 +67,7 @@ Fully Implemented Opcodes:
   - Ex9E
   - ExA1
   - Fx07
+  - Fx0A
   - Fx15
   - Fx18
   - Fx1E
@@ -75,6 +76,5 @@ Fully Implemented Opcodes:
 
 Opcodes to add:
   - Dxyn (this will be hard)
-  - Fx0A (think about this)
   - Fx29 (hardcode sprite addresses)
-  - Fx33 (thik about this)
+  - Fx33 (think about this)
