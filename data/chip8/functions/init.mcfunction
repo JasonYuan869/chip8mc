@@ -1,5 +1,5 @@
 # Disable commandFeedback
-gamerule sendCommandFeedback false
+gamerule sendCommandFeedback true
 
 # Initialize constants
 scoreboard objectives add Constant dummy
