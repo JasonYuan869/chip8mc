@@ -73,8 +73,8 @@ Fully Implemented Opcodes:
   - Fx1E
   - Fx55
   - Fx65
+  - Fx33
 
 Opcodes to add:
   - Dxyn (this will be hard)
   - Fx29 (hardcode sprite addresses)
-  - Fx33 (think about this)

@@ -14,6 +14,7 @@ scoreboard players set c15 Constant 15
 scoreboard players set c16 Constant 16
 scoreboard players set c32 Constant 32
 scoreboard players set c64 Constant 64
+scoreboard players set c100 Constant 100
 scoreboard players set c128 Constant 128
 scoreboard players set c256 Constant 256
 scoreboard players set c4096 Constant 4096
