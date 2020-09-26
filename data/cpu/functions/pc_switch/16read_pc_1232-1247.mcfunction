@@ -1,4 +1,4 @@
-execute if score Global PC matches 308..311 run function cpu:pc_switch/4read_pc_308-311
-execute if score Global PC matches 312..315 run function cpu:pc_switch/4read_pc_312-315
-execute if score Global PC matches 316..319 run function cpu:pc_switch/4read_pc_316-319
-execute if score Global PC matches 320..323 run function cpu:pc_switch/4read_pc_320-323
+execute if score Global PC matches 1232..1235 run function cpu:pc_switch/4read_pc_1232-1235
+execute if score Global PC matches 1236..1239 run function cpu:pc_switch/4read_pc_1236-1239
+execute if score Global PC matches 1240..1243 run function cpu:pc_switch/4read_pc_1240-1243
+execute if score Global PC matches 1244..1247 run function cpu:pc_switch/4read_pc_1244-1247

@@ -1,4 +1,4 @@
-execute if score Global pixel matches 448..511 run function renderer:set_pixel/64set_pixel_448-511
-execute if score Global pixel matches 512..575 run function renderer:set_pixel/64set_pixel_512-575
-execute if score Global pixel matches 576..639 run function renderer:set_pixel/64set_pixel_576-639
-execute if score Global pixel matches 640..703 run function renderer:set_pixel/64set_pixel_640-703
+execute if score Global pixel matches 1792..1855 run function renderer:set_pixel/512set_pixel_1792-1855
+execute if score Global pixel matches 1856..1919 run function renderer:set_pixel/512set_pixel_1856-1919
+execute if score Global pixel matches 1920..1983 run function renderer:set_pixel/512set_pixel_1920-1983
+execute if score Global pixel matches 1984..2047 run function renderer:set_pixel/512set_pixel_1984-2047

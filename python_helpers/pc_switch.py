@@ -11,14 +11,14 @@ for a in range(6):
                     q = c+(i*(4**(5-a)))
                     r = c+((i+1)*(4**(5-a)))-1
                     f.write(f'execute if score Global PC matches {q}..{r} run function cpu:pc_switch/{p}read_pc_{q}-{r}\n')
-                c += 4**(5-a)
+                c += 4**(6-a)
             else:
                 for i in range(4):
                     p = 4**(5-a)
                     q = c+(i*(4**(5-a)))
                     r = c+((i+1)*(4**(5-a)))-1
                     f.write(f'execute if score Global PC matches {q} run function cpu:pc_switch/read_two_bytes/read_pc_{q}\n')
-                c += 4**(5-a)
+                c += 4**(6-a)
 """
 for i in range(4095):
     i += 1

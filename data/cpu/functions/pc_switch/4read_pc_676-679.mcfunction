@@ -1,4 +1,4 @@
-execute if score Global PC matches 169 run function cpu:pc_switch/read_two_bytes/read_pc_169
-execute if score Global PC matches 170 run function cpu:pc_switch/read_two_bytes/read_pc_170
-execute if score Global PC matches 171 run function cpu:pc_switch/read_two_bytes/read_pc_171
-execute if score Global PC matches 172 run function cpu:pc_switch/read_two_bytes/read_pc_172
+execute if score Global PC matches 676 run function cpu:pc_switch/read_two_bytes/read_pc_676
+execute if score Global PC matches 677 run function cpu:pc_switch/read_two_bytes/read_pc_677
+execute if score Global PC matches 678 run function cpu:pc_switch/read_two_bytes/read_pc_678
+execute if score Global PC matches 679 run function cpu:pc_switch/read_two_bytes/read_pc_679

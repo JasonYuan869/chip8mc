@@ -150,3 +150,4 @@ scoreboard objectives add stack_14 dummy
 scoreboard objectives add stack_15 dummy
 
 function cpu:clear_stack
+function cpu:memory/init
