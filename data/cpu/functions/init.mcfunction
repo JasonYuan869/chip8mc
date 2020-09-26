@@ -93,7 +93,7 @@ scoreboard objectives add memory_value dummy
 scoreboard players set Global memory_value 0
 
 # After reading stack
-scoreboard objectives stack_value dummy
+scoreboard objectives add stack_value dummy
 scoreboard players set Global stack_value 0
 
 # Store the individual nibbles of the PC for debug purposes
