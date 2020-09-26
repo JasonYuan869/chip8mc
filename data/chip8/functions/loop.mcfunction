@@ -1,2 +1,2 @@
-cpu:pc_switch/read_pc
-renderer:draw_frame
+function cpu:pc_switch/read_pc
+function renderer:draw_frame
