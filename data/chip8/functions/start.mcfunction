@@ -3,3 +3,5 @@ scoreboard players set Global started 1
 
 # Move the PC to 0x200 (512)
 scoreboard players set Global PC 512
+
+function keyboard:draw_controller
