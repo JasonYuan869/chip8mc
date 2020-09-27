@@ -1,1 +1,1 @@
-scoreboard player set Global halt 1
+scoreboard players set Global halt 1
