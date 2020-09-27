@@ -1,3 +1,4 @@
+kill @e[type=armor_stand]
 # Disable commandFeedback
 gamerule sendCommandFeedback false
 

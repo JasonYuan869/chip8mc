@@ -2,10 +2,6 @@
 # Get MSB
 scoreboard players operation Global copy_1 /= c128 Constant
 
-## DEBUG
-tellraw @s [{"text":"sprite: "},{"score":{"name":"Global","objective":"sprite"}}]
-tellraw @s [{"text":"copy_1: "},{"score":{"name":"Global","objective":"copy_1"}}]
-
 # If bit = 1, set_pixel corresponding to bit
 execute if score Global copy_1 matches 1 run function cpu:opcode_switch/opcode_dxxx/set_pixel
 
