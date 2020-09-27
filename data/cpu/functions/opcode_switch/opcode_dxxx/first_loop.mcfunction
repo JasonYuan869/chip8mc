@@ -1,5 +1,7 @@
+# while looper_1 != 0
+# Set looper_2 to 8 (8 pixels)
 scoreboard players set Global looper_2 8
-
+tellraw @s [{"text":"I: "},{"score":{"name":"Global","objective":"I"}}]
 function cpu:opcode_switch/opcode_dxxx/get_sprite
 scoreboard players operation Global copy_1 = Global sprite
 function cpu:opcode_switch/opcode_dxxx/second_loop

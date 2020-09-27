@@ -14,3 +14,6 @@ execute if score Global PC_nibble_3 matches 12 run scoreboard players operation 
 execute if score Global PC_nibble_3 matches 13 run scoreboard players operation Global VC += Global VD
 execute if score Global PC_nibble_3 matches 14 run scoreboard players operation Global VC += Global VE
 execute if score Global PC_nibble_3 matches 15 run scoreboard players operation Global VC += Global VF
+execute if score Global VC matches 256.. run scoreboard players set Global VF 1
+execute unless score Global VC matches 256.. run scoreboard players set Global VF 0
+execute if score Global VC matches 256.. run scoreboard players remove Global VC 256

@@ -11,14 +11,14 @@ for a in range(6):
                     q = c+(i*(4**(5-a)))
                     r = c+((i+1)*(4**(5-a)))-1
                     f.write(f'execute if score Global I matches {q}..{r} run function cpu:memory/write_memory/{p}write_memory_{q}-{r}\n')
-                c += 4**(5-a)
+                c += 4**(6-a)
             else:
                 for i in range(4):
                     p = 4**(5-a)
                     q = c+(i*(4**(5-a)))
                     r = c+((i+1)*(4**(5-a)))-1
-                    f.write(f'execute if score Global I matches {q} run scoreboard players operation Global mem_{i} = Global memory_value\n')
-                c += 4**(5-a)
+                    f.write(f'execute if score Global I matches {q} run scoreboard players operation Global mem_{q} = Global memory_value\n')
+                c += 4**(6-a)
 """
 for i in range(4095):
     i += 1

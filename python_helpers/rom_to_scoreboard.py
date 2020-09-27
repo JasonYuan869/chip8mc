@@ -1,6 +1,6 @@
 # Load a ch8 file (binary) into scoreboard instructions
 
-with open('c8_test.c8','rb') as f:
+with open('test_opcode.ch8','rb') as f:
     byte_array = bytes(f.read())
 
 with open('..\data\\roms\\functions\\test_rom.mcfunction', 'w') as f:

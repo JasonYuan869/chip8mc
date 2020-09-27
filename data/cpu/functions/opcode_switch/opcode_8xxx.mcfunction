@@ -10,4 +10,4 @@ execute if score Global PC_nibble_4 matches 4 run function cpu:opcode_switch/opc
 execute if score Global PC_nibble_4 matches 5 run function cpu:opcode_switch/opcode_8xx5
 execute if score Global PC_nibble_4 matches 6 run function cpu:opcode_switch/opcode_8xx6
 execute if score Global PC_nibble_4 matches 7 run function cpu:opcode_switch/opcode_8xx7
-execute if score Global PC_nibble_4 matches 14 run function cpu:opcode_switch/opcode_8xxE
+execute if score Global PC_nibble_4 matches 14 run function cpu:opcode_switch/opcode_8xxe

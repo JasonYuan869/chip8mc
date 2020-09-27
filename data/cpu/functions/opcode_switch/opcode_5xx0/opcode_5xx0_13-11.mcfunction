@@ -1,1 +1,1 @@
-execute if score Global VD = Global VB run scoreboard players add Global PC 2
+execute if score Global VD = Global VB run scoreboard players add Global PC_temp 2

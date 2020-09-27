@@ -21,7 +21,7 @@ scoreboard players add Global I 1
 scoreboard players add Global copy_1 1
 scoreboard players remove Global PC_nibble_2 1
 
-execute if score Global PC_nibble_2 matches 0.. run function cpu:opcode_switch/opcode_fx65
+execute if score Global PC_nibble_2 matches 0.. run function cpu:opcode_switch/opcode_fx55
 
 scoreboard players remove Global I 1
 scoreboard players add Global PC_nibble_2 1

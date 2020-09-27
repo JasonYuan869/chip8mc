@@ -1,5 +1,8 @@
 # Divide by 0x10 to isolate first nibble (bit shift right)
 # PC_nibble_1 is MSB
+# COPY PC TO TEMP VARIABLE TO PREVENT ACCIDENTAL RECURSION!!!!
+scoreboard players operation Global PC_temp = Global PC
+
 scoreboard players operation Global PC_nibble_1 = Global PC_byte_1
 scoreboard players operation Global PC_nibble_1 /= c16 Constant
 
@@ -28,11 +31,13 @@ scoreboard players operation Global PC_value_2 %= c16 Constant
 # Modulo 0x10 to get last nibble
 scoreboard players operation Global PC_value_3 %= c16 Constant
 
-execute unless score Global enable_debug matches 0 run function cpu:assign_hex
+function cpu:assign_hex
+execute unless score Global enable_debug matches 0 run function cpu:opcode_switch/print_opcode
 
 # Increment the program counter by two bytes upon executing the opcode
-scoreboard players add Global PC 2
+scoreboard players add Global PC_temp 2
+
 execute if score Global PC_nibble_1 matches 0..3 run function cpu:opcode_switch/opcodes_0-3
 execute if score Global PC_nibble_1 matches 4..7 run function cpu:opcode_switch/opcodes_4-7
 execute if score Global PC_nibble_1 matches 8..11 run function cpu:opcode_switch/opcodes_8-11
-execute if score Global PC_nibble_1 matches 12..16 run function cpu:opcode_switch/opcodes_12-15
+execute if score Global PC_nibble_1 matches 12..15 run function cpu:opcode_switch/opcodes_12-15

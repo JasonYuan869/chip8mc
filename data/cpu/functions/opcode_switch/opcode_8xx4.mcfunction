@@ -15,6 +15,3 @@ execute if score Global PC_nibble_2 matches 12 run function cpu:opcode_switch/op
 execute if score Global PC_nibble_2 matches 13 run function cpu:opcode_switch/opcode_8xx4/opcode_8xx4_13
 execute if score Global PC_nibble_2 matches 14 run function cpu:opcode_switch/opcode_8xx4/opcode_8xx4_14
 execute if score Global PC_nibble_2 matches 15 run function cpu:opcode_switch/opcode_8xx4/opcode_8xx4_15
-scoreboard players operation Global copy_1 = Global VF
-execute if score Global VF >= c256 Constant run scoreboard players set Global VF 1
-execute unless score Global VF >= c256 Constant run scoreboard players set Global VF 0

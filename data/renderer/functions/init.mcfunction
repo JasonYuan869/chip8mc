@@ -1,4 +1,6 @@
 scoreboard objectives add pixel dummy
+scoreboard objectives add erased dummy
+scoreboard players set Global erased 0
 
 # Pixel array of 2048 pixels
 scoreboard objectives add pixel_0 dummy

@@ -1,4 +1,4 @@
-execute if score Global I matches 792..795 run function cpu:memory/write_memory/4write_memory_792-795
-execute if score Global I matches 796..799 run function cpu:memory/write_memory/4write_memory_796-799
-execute if score Global I matches 800..803 run function cpu:memory/write_memory/4write_memory_800-803
-execute if score Global I matches 804..807 run function cpu:memory/write_memory/4write_memory_804-807
+execute if score Global I matches 3168..3171 run function cpu:memory/write_memory/4write_memory_3168-3171
+execute if score Global I matches 3172..3175 run function cpu:memory/write_memory/4write_memory_3172-3175
+execute if score Global I matches 3176..3179 run function cpu:memory/write_memory/4write_memory_3176-3179
+execute if score Global I matches 3180..3183 run function cpu:memory/write_memory/4write_memory_3180-3183

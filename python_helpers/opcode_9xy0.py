@@ -6,7 +6,7 @@ for x in range(16):
 for x in range(16):
     for i in range(16):
         with open(f'..\\data\\cpu\\functions\\opcode_switch\\opcode_9xx0\\opcode_9xx0_{x}-{i}.mcfunction', 'w') as f:
-            f.write(f'execute unless score Global V{hex(x)[2:].upper()} = Global V{hex(i)[2:].upper()} run scoreboard players add Global PC 2\n')
+            f.write(f'execute unless score Global V{hex(x)[2:].upper()} = Global V{hex(i)[2:].upper()} run scoreboard players add Global PC_temp 2\n')
 
 
 for x in range(16):

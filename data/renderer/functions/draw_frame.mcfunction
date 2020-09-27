@@ -1,5 +1,5 @@
 # Clear the screen
-fill 0 84 -32 0 52 32 white_wool
+fill 0 84 -32 0 53 31 white_wool
 
 execute if score Global pixel_0 matches 1 run setblock 0 84 -32 black_wool
 execute if score Global pixel_1 matches 1 run setblock 0 84 -31 black_wool

@@ -1,5 +1,5 @@
 # Clear the screen
-fill 0 84 -32 0 52 32 white_wool
+fill 0 84 -32 0 53 31 white_wool
 
 # Empty pixel array
 scoreboard players set Global pixel_0 0

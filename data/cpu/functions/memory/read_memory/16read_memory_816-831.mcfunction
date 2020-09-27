@@ -1,4 +1,4 @@
-execute if score Global I matches 204..207 run function cpu:memory/read_memory/4read_memory_204-207
-execute if score Global I matches 208..211 run function cpu:memory/read_memory/4read_memory_208-211
-execute if score Global I matches 212..215 run function cpu:memory/read_memory/4read_memory_212-215
-execute if score Global I matches 216..219 run function cpu:memory/read_memory/4read_memory_216-219
+execute if score Global I matches 816..819 run function cpu:memory/read_memory/4read_memory_816-819
+execute if score Global I matches 820..823 run function cpu:memory/read_memory/4read_memory_820-823
+execute if score Global I matches 824..827 run function cpu:memory/read_memory/4read_memory_824-827
+execute if score Global I matches 828..831 run function cpu:memory/read_memory/4read_memory_828-831

@@ -1,1 +1,1 @@
-execute unless score Global V6 = Global VE run scoreboard players add Global PC 2
+execute unless score Global V6 = Global VE run scoreboard players add Global PC_temp 2

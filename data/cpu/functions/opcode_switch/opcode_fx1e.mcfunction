@@ -14,3 +14,5 @@ execute if score Global PC_nibble_2 matches 12 run scoreboard players operation 
 execute if score Global PC_nibble_2 matches 13 run scoreboard players operation Global I += Global VD
 execute if score Global PC_nibble_2 matches 14 run scoreboard players operation Global I += Global VE
 execute if score Global PC_nibble_2 matches 15 run scoreboard players operation Global I += Global VF
+
+execute if score Global I matches 4096.. run scoreboard players remove Global I 4096

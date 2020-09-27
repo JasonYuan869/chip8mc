@@ -3,3 +3,4 @@ execute unless score Global VE > Global V6 run scoreboard players set Global VF 
 scoreboard players operation Global copy_1 = Global VE
 scoreboard players operation Global copy_1 -= Global V6
 scoreboard players operation Global V6 = Global copy_1
+execute if score Global V6 matches ..-1 run scoreboard players add Global V6 256

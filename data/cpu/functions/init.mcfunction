@@ -67,8 +67,12 @@ scoreboard players set Global looper_2 0
 # Pseudo registers (PC, SP)
 scoreboard objectives add PC dummy
 scoreboard objectives add SP dummy
+scoreboard objectives add PC_temp dummy
+scoreboard objectives add SP_temp dummy
 scoreboard players set Global PC 0
 scoreboard players set Global SP 0
+scoreboard players set Global PC_temp 0
+scoreboard players set Global SP_temp 0
 
 # Delay timer and Sound timer
 scoreboard objectives add DT dummy

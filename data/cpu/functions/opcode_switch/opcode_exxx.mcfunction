@@ -8,5 +8,5 @@ execute if score PC_nibble_3 matches 9 if score PC_nibble_4 matches 1 run functi
 execute if score PC_nibble_3 matches 10 if score PC_nibble_4 matches 13 run function cpu:opcode_switch/unknown_opcode
 
 # Remaining opcodes must be either 9E or A1
-execute if score Global PC_nibble_3 matches 9 run function cpu:opcode_switch/opcode_Ex9E
-execute if score Global PC_nibble_3 matches 10 run function cpu:opcode_switch/opcode_ExA1
+execute if score Global PC_nibble_3 matches 9 run function cpu:opcode_switch/opcode_ex9e
+execute if score Global PC_nibble_3 matches 10 run function cpu:opcode_switch/opcode_exa1

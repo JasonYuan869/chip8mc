@@ -1,4 +1,4 @@
-execute if score Global I matches 423 run scoreboard players operation Global memory_value = Global mem_0
-execute if score Global I matches 424 run scoreboard players operation Global memory_value = Global mem_1
-execute if score Global I matches 425 run scoreboard players operation Global memory_value = Global mem_2
-execute if score Global I matches 426 run scoreboard players operation Global memory_value = Global mem_3
+execute if score Global I matches 1692 run scoreboard players operation Global memory_value = Global mem_1692
+execute if score Global I matches 1693 run scoreboard players operation Global memory_value = Global mem_1693
+execute if score Global I matches 1694 run scoreboard players operation Global memory_value = Global mem_1694
+execute if score Global I matches 1695 run scoreboard players operation Global memory_value = Global mem_1695
