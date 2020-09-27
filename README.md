@@ -2,7 +2,7 @@
 An experimental CHIP-8 emulator in Minecraft 1.16.2. Inspired by SethBling's [Atari 2600 emulator](https://www.youtube.com/watch?v=mq7T5_xH24M).
 
 ## Features
-- Implements all CHIP-8 Opcodes from [Cowgod's Technical Reference](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM#8xyE)
+- Implements all CHIP-8 opcodes from [Cowgod's Technical Reference](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM)
 - Fully functioning 64x32 monochrome display
 - Runs on Minecraft's 20 Hz clock (the timers also decrement at 20 Hz)
   - About 3 fps
