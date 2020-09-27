@@ -1,5 +1,5 @@
 # Disable commandFeedback
-gamerule sendCommandFeedback true
+gamerule sendCommandFeedback false
 
 # Initialize constants
 scoreboard objectives add Constant dummy
@@ -26,7 +26,7 @@ scoreboard objectives add started dummy
 scoreboard objectives add enable_debug dummy
 scoreboard objectives add halt dummy
 scoreboard players set Global started 0
-scoreboard players set Global enable_debug 1
+scoreboard players set Global enable_debug 0
 scoreboard players set Global halt 0
 
 # Initialize sub-modules

@@ -7,6 +7,6 @@ scoreboard players operation Global PC_nibble_4 += Global PC_nibble_3
 scoreboard players operation Global PC_nibble_4 += Global PC_nibble_2
 
 scoreboard players add Global SP 1
-scoreboard players operation Global stack_value = Global PC
+scoreboard players operation Global stack_value = Global PC_temp
 function cpu:stack_switch/write_stack/write_stack
-scoreboard players operation Global PC = Global PC_nibble_4
+scoreboard players operation Global PC_temp = Global PC_nibble_4
