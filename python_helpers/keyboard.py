@@ -11,16 +11,16 @@ for x in range(4):
 with open('..\data\keyboard\\functions\init.mcfunction', 'w') as f:
     for i in range(10):
         f.write(f'scoreboard objectives add button_{i} dummy\n')
-    for i in ('A', 'B', 'C', 'D', 'E', 'F'):
+    for i in ('a', 'b', 'c', 'd', 'e', 'f'):
         f.write(f'scoreboard objectives add button_{i} dummy\n')
     f.write('\n')
     for i in range(10):
         f.write(f'scoreboard players set Global button_{i} 0\n')
-    for i in ('A', 'B', 'C', 'D', 'E', 'F'):
+    for i in ('a', 'b', 'c', 'd', 'e', 'f'):
         f.write(f'scoreboard players set Global button_{i} 0\n')
 
 
-with open('.\data\keyboard\\functions\draw_controller.mcfunction', 'w') as f:
+with open('..\data\keyboard\\functions\draw_controller.mcfunction', 'w') as f:
     for j in k:
         for a in range(2):
             for b in range(2):

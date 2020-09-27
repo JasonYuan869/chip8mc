@@ -3,7 +3,7 @@
     "text": "[A]",
     "clickEvent": {
       "action": "run_command",
-      "value": "/function keyboard:buttons/button_a
+      "value": "/function keyboard:buttons/button_a"
     },
     "color": "gray"
   },
