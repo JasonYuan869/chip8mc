@@ -1,3 +1,4 @@
+weather clear
 # RNG main loop can be run always (..probably)
 execute as @p at @s run function rng:core
 
