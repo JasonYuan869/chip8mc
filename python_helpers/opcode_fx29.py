@@ -1,7 +1,7 @@
 for x in range(16):
     with open(f'..\\data\\cpu\\functions\\opcode_switch\\opcode_fx29\\opcode_fx29_{x}.mcfunction', 'w') as f:
             f.write(f'scoreboard players operation Global I = Global V{hex(x)[2:].upper()}\n'
-                    'scorebooard players operation Global I *= c5 Constant\n')
+                    'scoreboard players operation Global I *= c5 Constant\n')
 
 
 for x in range(16):
