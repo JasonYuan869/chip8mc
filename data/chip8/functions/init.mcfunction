@@ -1,6 +1,8 @@
 kill @e[type=armor_stand]
 # Disable commandFeedback
 gamerule sendCommandFeedback false
+gamerule doDaylightCycle false
+time set day
 
 # Initialize constants
 scoreboard objectives add Constant dummy
