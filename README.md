@@ -1,4 +1,4 @@
-# CHIP-8_MC
+# CHIP-8 MC
 An experimental CHIP-8 emulator in Minecraft 1.16.2. Inspired by SethBling's [Atari 2600 emulator](https://www.youtube.com/watch?v=mq7T5_xH24M).
 
 ## Features
