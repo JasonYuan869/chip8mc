@@ -23,7 +23,7 @@ An experimental CHIP-8 emulator in Minecraft 1.16.2. Inspired by SethBling's [At
   
 ## Adding new ROMs
 - Place the ROM binary into the `python_helpers` folder.
-- Edit line 3 to say `with open('<file name + extension>', 'rb') as f:`.
+- Edit line 3 in rom_to_scoreboard.py to say `with open('<file name + extension>', 'rb') as f:`.
 - Edit line 6 to say `with open('<..\data\\roms\\functions\\<rom_name>.mcfunction', 'w') as f:`.
 - Run rom_to_scoreboard.py.
 - Activate the new ROM in game with `/function roms:<rom_name>`.
