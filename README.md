@@ -12,6 +12,8 @@ An experimental CHIP-8 emulator in Minecraft 1.16.2. Inspired by SethBling's [At
 - Basic debug tracelog with opcode and PC
 - SOUND IS NOT IMPLEMENTED (and I don't plan to because Minecraft doesnt have a tone generator)
 
+How it works can be found in [technical.md](technical.md).
+
 ## Usage
 - Create a new world in Creative mode and set the world type to superflat void.
 - Download chip8mc.zip and place it into the datapacks folder.
