@@ -35,9 +35,9 @@ The available operations are:
 
 Minecraft does not feature bitwise operators including logic and shifts.
 ### Data types
-Minecraft's scoreboard only allows numerical data to be stored, however in the context of an emulator (or any CPU), that is more than sufficient. CHIP8 is an 8-bit architecture in which all data can be stored in base 10 numbers from 0-255.
+Minecraft's scoreboard only allows numerical data to be stored, however in the context of an emulator (or any CPU), that is more than sufficient. CHIP-8 is an 8-bit architecture in which all data can be stored in decimal numbers from 0-255.
 The biggest limitation of the scoreboard system is their lack of arrays or iterables. 
-Other languages can directly access certain indexes of an array with `arrray[index]`, which allows for the following behaviour:
+Other languages can directly access certain indexes of an array with `array[index]`, which allows for the following behaviour:
 ```java
 // Take two bytes of memory starting from the PC, then store that as the opcode
 opcode = (mem[PC] << 8) + mem[PC + 1];
@@ -97,6 +97,11 @@ It also prints to chat a copy of the keyboard with a visible sign that the key w
 
 ## Programming the CPU
 By far the most tedious task to do when it comes to an emulator, let alone an emulator in Minecraft. CHIP-8 features 4KB of RAM, 16 8-bit registers (V0-VF), 1 16-bit register (I), and 16x16 bit LIFO stack array. The CPU itself features 36 different opcodes ranging from arithmetic, control flow, and display.
-Like the pixel data, the RAM is also stored in a (de facto) array of scoreboard objectives, `mem_x`. Registers and "pseudo-registers" (program counter, stack pointer, delay timer, etc.) are also stored in scoreboard objectives.
+Like the pixel data, the RAM is also stored in a (de facto) array of scoreboard objectives, `mem_x`, `x` between \[0, 16384). Registers and "pseudo-registers" (program counter, stack pointer, delay timer, etc.) are also stored in scoreboard objectives. Each opcode is exactly two bytes long, so the emulator reads two bytes starting from the PC. Since you cannot pass scoreboard values to index the de facto memory array, I have a couple thousand .mcfunction files check every possible value of PC and copy the two bytes accordingly. This is optimized through a search tree with four branches to compromise between file quantity and speed.
+
+Once the bytes are copied, the emulator then performs certain integer division and modulo operations to simulate a bitwise AND and isolate the four nibbles of the opcode.
+I have a debug system setup that will set scores to various named armor stands based on the nibbles and PC location, which is then printed to chat using the `/tellraw` command if debug is enabled. After, the four nibbles are passed to another search tree that acts as a switch-case to search for the specific opcode. This is found in the [cpu/functions/opcode_switch](./data/cpu/functions/opcode_switch) folder.
+
+The opcode will eventually execute and increase the PC by 2, which is then looped again every tick.
 
 
