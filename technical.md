@@ -104,14 +104,14 @@ I have a debug system setup that will set scores to various named armor stands b
 
 The opcode will eventually execute and increase the PC by 2, which is then looped again every tick.
 
-# The Registers
+### The Registers
 The CHIP-8 CPU has 16-general purpose 8-bit registers, labelled `Vx`, where `x` is a hexadecimal digit. The `VF` register records flags after certain arithmetic operations, and hence is not generally used by any program. Furthermore, there is a 16-bit register called `I` that is usually used to store memory addresses. All of these registers are stored and manipulated as regular scoreboard variables. Preferably, it would have been easier to have an array of register which could be addressed as `V[x]`, but again, Minecraft scoreboard does not support arrays.
 
-# The Stack
+### The Stack
 In CHIP-8, the stack can hold 16 16-bit values. This is stored similar to the registers as `stack_x`, where `x` is from 0 to 15. I created helper functions `read_stack` and `write_stack` that can read and modify the stack array depending on where the stack pointer `SP` is located (which is a value from 0 to 15). To write to the stack, first assign the relevant 16-bit value to the temporary variable `stack_value`, then run `write_stack`. Similarly, `read_stack` works by copying the relevant 16-bit value from the stack into `stack_value`.
 
-# Bitwise Operations
+### Bitwise Operations
 Since there are no built-in bitwise and/or/xor in Minecraft's scoreboard system, I used a lookup table to hardcode those bitwise operations for all 4-bit inputs. To perform an 8-bit bitwise operation, I simply perform the lookup on each operand twice, once for the most significant 4 bits, and again for the least significant. Bitshifts left and right can be performed with multiplication and division by 2, which thankfully is implemented in the scoreboard system. The bitwise and/or/xor functions can be found in [cpu/functions/bitwise_ops](./data/cpu/functions/bitwise_ops)
 
-# Debug Output
+### Debug Output
 I implemented a system that prints out the current program counter and opcode upon every instruction to help debug my emulator. This system takes advantage of the `tellraw` command (also used in the keyboard) to print named entities, in this case invisible armor stands named 0-F. The idea for this debugger was inspired by SethBling's Atari 2600 emulator in Minecraft (actually the entire project was inspired by that). Thanks fo this debugger, I was able to fix a fatal bug where updates to the program counter during opcode execution would lead to the emulator executing two or more instructions in one clock tick.
